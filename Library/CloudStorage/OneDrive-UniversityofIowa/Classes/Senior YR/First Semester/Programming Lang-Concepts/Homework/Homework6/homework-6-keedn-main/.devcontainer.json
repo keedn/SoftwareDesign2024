@@ -1,0 +1,17 @@
+{
+    "name" : "CS:3820 Fall 25 Homework 6",
+    "image" : "mcr.microsoft.com/vscode/devcontainers/base:debian",
+    "customizations": {
+        "vscode": {
+            "extensions" : ["leanprover.lean4", "github.classroom"]
+        },
+        "codespaces": {
+            "extensions" : ["leanprover.lean4", "github.classroom"]
+        }
+    },
+
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/ps1,type=bind,consistency=delegated",
+    "workspaceFolder": "/home/vscode/ps1",
+
+    "remoteUser": "vscode"
+}
