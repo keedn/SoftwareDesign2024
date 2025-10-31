@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyHangmanGuiController">
+   <VBox fx:id="gameComponents1" alignment="CENTER_RIGHT" layoutX="172.0" layoutY="-2.0" prefHeight="321.0" prefWidth="409.0" visible="false" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="172.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <children>
+         <Text fx:id="wordPreview" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="word" textAlignment="CENTER" wrappingWidth="408.5966796875">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Text>
+         <HBox fx:id="alphabetPreview" alignment="BOTTOM_RIGHT" disable="true" prefHeight="100.0" prefWidth="353.0" />
+      </children>
+   </VBox>
+   <VBox fx:id="gameComponents2" layoutX="-30.0" layoutY="-123.0" prefHeight="407.0" prefWidth="601.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Label fx:id="guessesLeft" alignment="CENTER_RIGHT" text="Guesses Left: 6 ">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin></Label>
+      <Text fx:id="hangmanStage" stroke="BLACK" strokeType="OUTSIDE" text="+---+                         |   |                             |                             |                             |                             |                        ======" wrappingWidth="195.72314453125">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" />
+         </VBox.margin>
+      </Text>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="34.0" prefWidth="346.0">
+         <children>
+            <TextField fx:id="userWordGuessField" alignment="BASELINE_CENTER" layoutX="29.0" layoutY="15.0" prefHeight="24.0" prefWidth="307.0" promptText="TRY FOR WORD">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField fx:id="userInputField" alignment="BOTTOM_CENTER" prefHeight="24.0" prefWidth="175.0" promptText="Guess a Letter.....">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+            <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitButtonPressed" prefHeight="24.0" prefWidth="260.0" text="Submit Guess">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </VBox>
+   <DialogPane fx:id="startPopUp" prefHeight="350.0" prefWidth="650.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+      <header>
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hangman Game" textAlignment="CENTER" wrappingWidth="601.72314453125">
+            <font>
+               <Font name="System Bold" size="25.0" />
+            </font>
+         </Text>
+      </header>
+      <content>
+         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+            <children>
+               <HBox alignment="TOP_CENTER" prefHeight="39.0" prefWidth="805.0">
+                  <children>
+                     <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter a Custom Word, OR continue to play" textAlignment="CENTER" y="-2.0">
+                        <HBox.margin>
+                           <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                        </HBox.margin>
+                     </Text>
+                     <TextField fx:id="customHangmanWord" prefHeight="24.0" prefWidth="165.0" promptText="Enter Custom Word">
+                        <opaqueInsets>
+                           <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                        </padding>
+                        <HBox.margin>
+                           <Insets bottom="5.0" left="5.0" right="5.0" />
+                        </HBox.margin>
+                     </TextField>
+                     <Button fx:id="playHangManButton" mnemonicParsing="false" onAction="#handlePlayHangman" text="Play">
+                        <HBox.margin>
+                           <Insets bottom="5.0" left="5.0" right="5.0" />
+                        </HBox.margin>
+                     </Button>
+                  </children>
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+                  <padding>
+                     <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  </padding>
+               </HBox>
+               <HBox alignment="BASELINE_LEFT" prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |                           |                           |                           |                          ======" wrappingWidth="136.26708984375">
+                        <HBox.margin>
+                           <Insets left="12.0" />
+                        </HBox.margin>
+                     </Text>
+                     <Text layoutX="10.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |                           |                           |                          ====== " wrappingWidth="139.26708984375" />
+                     <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |      |                      |                           |                          ======" wrappingWidth="139.26708984375" />
+                  </children>
+               </HBox>
+               <HBox alignment="BOTTOM_RIGHT" prefHeight="0.0" prefWidth="708.0">
+                  <children>
+                     <Text layoutX="91.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |     /|                     |                           |                         ======" wrappingWidth="139.26708984375" />
+                     <Text layoutX="163.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |     /|\                     |                          |                         ======" wrappingWidth="139.26708984375" />
+                     <Text layoutX="235.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |     /|\                     |     /                        |                          ======" wrappingWidth="139.26708984375">
+                        <HBox.margin>
+                           <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </HBox.margin>
+                     </Text>
+                     <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  +---+                     |      |                     |      O                     |     /|\                     |     / \                     |                          ======" wrappingWidth="139.26708984375">
+                        <HBox.margin>
+                           <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                        </HBox.margin>
+                     </Text>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </content>
+   </DialogPane>
+</AnchorPane>

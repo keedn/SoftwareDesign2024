@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="600.0" style="-fx-background-color: #6495DD;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FF_StorePageController">
+   <top>
+      <Label alignment="CENTER" prefHeight="55.0" prefWidth="658.0" style="-fx-font-weight: bold; -fx-background-color: #6485DD;" text="--- FAMILY FEUD STORE ---" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="296.0" prefWidth="672.0">
+               <children>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <Label fx:id="item1" alignment="CENTER" prefWidth="305.0" text="Change Button Color to Pink">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price1" alignment="CENTER" style="-fx-font-weight: bold;" text="50$ " textFill="#257925">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="buyPinkButton" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#handleBuyPinkButton" prefWidth="73.0" style="-fx-background-color: #6485DD;" text="Buy">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="25.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <Label fx:id="item2" alignment="CENTER" prefWidth="306.0" text="Change Button Color to Green">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price2" style="-fx-font-weight: bold;" text="50$" textFill="#257925">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="buyGreenButton" mnemonicParsing="false" onAction="#handleBuyGreenButton" prefWidth="73.0" style="-fx-background-color: #6485DD;" text="Buy">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="25.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <Label fx:id="item21" alignment="CENTER" prefHeight="21.0" prefWidth="306.0" text="Double Points (1 Game)">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price21" style="-fx-font-weight: bold;" text="25$" textFill="#257925">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="buy2XPointsButton" mnemonicParsing="false" onAction="#handleBuyDoublePoints" prefHeight="15.0" prefWidth="73.0" style="-fx-background-color: #6485DD;" text="Buy">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="25.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Label fx:id="outcomeMessage" alignment="CENTER" prefHeight="61.0" prefWidth="600.0" style="-fx-font-weight: bold;" textFill="#17652f">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+      <HBox alignment="BOTTOM_LEFT" prefHeight="89.0" prefWidth="600.0" style="-fx-background-color: #6485DD;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="userCashLabel" prefHeight="18.0" prefWidth="214.0" style="-fx-font-weight: bold;" text="Cash : 0$" textFill="#257925">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="15.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="backToLobbyButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleBackToLobbyButton" prefHeight="38.0" prefWidth="150.0" style="-fx-background-color: #6470DD;" text="Back to Lobby" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="20.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

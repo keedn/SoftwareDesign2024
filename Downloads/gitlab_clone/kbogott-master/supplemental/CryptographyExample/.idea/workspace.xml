@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5110424d-8145-4f52-b85b-5c32bece4a63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptographyExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CryptographyExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AsymmetricCryptography.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AsymmetricCryptography.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/DecryptAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/DecryptAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/EncryptAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/EncryptAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/Kgen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AsymmetricKeyEncryption/Kgen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CryptographyExample.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/Kgen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/Kgen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/MACtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/MACtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/MacAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/MacAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/VerifyAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageAuthenticationCode/VerifyAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageDigest/MessageDigestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageDigest/MessageDigestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MessageDigest/MessageHashDigest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MessageDigest/MessageHashDigest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/DecryptAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/DecryptAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/EncryptAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/EncryptAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/Kgen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/Kgen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/SymmetricKeySchemeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SymmetricKeyEncryption/SymmetricKeySchemeTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="cicciog" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="CryptographyExample" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageDigest/MessageDigest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MessageAuthenticationCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/KeyGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/Mac.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/Kgen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageDigest/MessageHashDigest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageDigest/MessageDigestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/EncryptAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/DecryptAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/SymmetricKeySchemeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/Kgen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/Kgen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/PublicKeyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/DecryptAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/EncryptAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/AsymmetricCryptography.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MacAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MACtest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/VerifyAlgorithm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="475" />
+    <option name="y" value="11" />
+    <option name="width" value="679" />
+    <option name="height" value="731" />
+  </component>
+  <component name="ProjectId" id="21nS36s3kLdcSFLKGZ3uTJVjPwj" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CryptographyExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CryptographyExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CryptographyExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CryptographyExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CryptographyExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CryptographyExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_111" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.22919708" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MessageDigest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Franecesco-pc\IdeaProjects\Cryptography\CryptographyExample\images" />
+      <recent name="C:\Users\Franecesco-pc\IdeaProjects\Cryptography\CryptographyExample\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SymmetricKeySchemeTest">
+    <configuration name="AsymmetricCryptography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AsymmetricCryptography" />
+      <module name="CryptographyExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MACtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MessageAuthenticationCode.MACtest" />
+      <module name="CryptographyExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MessageAuthenticationCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageDigestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MessageDigest.MessageDigestTest" />
+      <module name="CryptographyExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MessageDigest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiftCipherTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShiftCipher.ShiftCipherTest" />
+      <module name="CryptographyExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ShiftCipher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymmetricKeySchemeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SymmetricKeyEncryption.SymmetricKeySchemeTest" />
+      <module name="CryptographyExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SymmetricKeyEncryption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SymmetricKeySchemeTest" />
+        <item itemvalue="Application.ShiftCipherTest" />
+        <item itemvalue="Application.MessageDigestTest" />
+        <item itemvalue="Application.AsymmetricCryptography" />
+        <item itemvalue="Application.MACtest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5110424d-8145-4f52-b85b-5c32bece4a63" name="Default Changelist" comment="" />
+      <created>1578489974072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578489974072</updated>
+      <workItem from="1578489977863" duration="750000" />
+      <workItem from="1578496824961" duration="2795000" />
+      <workItem from="1578500661603" duration="3098000" />
+      <workItem from="1579365468276" duration="356000" />
+      <workItem from="1579596679657" duration="701000" />
+      <workItem from="1580057849425" duration="56000" />
+      <workItem from="1580747077712" duration="1223000" />
+      <workItem from="1580751948731" duration="407000" />
+      <workItem from="1581005393474" duration="2434000" />
+      <workItem from="1581157121563" duration="1432000" />
+      <workItem from="1581267116624" duration="641000" />
+      <workItem from="1581323375493" duration="12271000" />
+      <workItem from="1581357183248" duration="2092000" />
+      <workItem from="1581493499004" duration="11370000" />
+      <workItem from="1638575164832" duration="1148000" />
+    </task>
+    <task id="LOCAL-00001" summary="created maven project for cryptography examples">
+      <created>1578490147452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578490147452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="imported dependencies in pom.xml">
+      <created>1578491757424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578491757424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create a message digest class">
+      <created>1578494725510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578494725510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create a kgen for Message Authentication Code">
+      <created>1578496873204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578496873204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Symmetric key encryption scheme example completed">
+      <created>1578502208463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578502208464</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added proof for Symmetric key encryption scheme">
+      <created>1578503349382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578503349382</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added asymmetric key encryption scheme: encryption">
+      <created>1581334418821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581334418821</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added asymmetric key encryption scheme: decryption">
+      <created>1581337033381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581337033381</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Deleted publickey test class">
+      <created>1581501918322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581501918322</updated>
+    </task>
+    <task id="LOCAL-00010" summary="The MAC algorithm  was updated and the verification algorithm has been implemented">
+      <created>1581504084101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581504084101</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added hash function image">
+      <created>1581507065094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581507065094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added public key image">
+      <created>1581507362739</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581507362739</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added private key image">
+      <created>1581507384328</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581507384328</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44498000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="475" y="11" width="679" height="731" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37802908" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5015129" visible="true" weight="0.34448162" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49848714" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46293494" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17700455" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49848714" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5015129" visible="true" weight="0.3371522" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49848714" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.46293494" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created maven project for cryptography examples" />
+    <MESSAGE value="imported dependencies in pom.xml" />
+    <MESSAGE value="create a message digest class" />
+    <MESSAGE value="create a kgen for Message Authentication Code" />
+    <MESSAGE value="Symmetric key encryption scheme example completed" />
+    <MESSAGE value="Added proof for Symmetric key encryption scheme" />
+    <MESSAGE value="Added asymmetric key encryption scheme: encryption" />
+    <MESSAGE value="Added asymmetric key encryption scheme: decryption" />
+    <MESSAGE value="Updated asymmetric key encryption scheme" />
+    <MESSAGE value="Deleted publickey test class" />
+    <MESSAGE value="The MAC algorithm  was updated and the verification algorithm has been implemented" />
+    <MESSAGE value="added hash function image" />
+    <MESSAGE value="added public key image" />
+    <MESSAGE value="added private key image" />
+    <option name="LAST_COMMIT_MESSAGE" value="added private key image" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CryptographyExample.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/KeyGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/KeyGen.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/Mac.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MessageAuthenticationCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/DecryptAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageDigest/MessageDigestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageDigest/MessageHashDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/SymmetricKeySchemeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="3" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/EncryptAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/RSACipher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4318">
+          <caret line="288" selection-start-line="288" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/jce.jar!/javax/crypto/Cipher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13073">
+          <caret line="810" selection-start-line="810" selection-end-line="810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SymmetricKeyEncryption/Kgen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeyPair/privateKey.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/Kgen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/DecryptAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/PublicKeyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="47" column="66" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/AsymmetricCryptography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsymmetricKeyEncryption/EncryptAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/Kgen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MacAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/VerifyAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MessageAuthenticationCode/MACtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/hash_functions.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/public-key-encryption.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/symmetric-encryption.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mac.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CryptographyExample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

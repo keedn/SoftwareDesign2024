@@ -1,0 +1,46 @@
+
+// *************** SPLIT HAND *****************************************
+     * Splits Hand
+     * @param deck Current Deck
+     * @return New Split Hand
+     */
+    public void splitHand(Player player, Deck deck){
+
+        // Check if Possible to Split
+        if(!canSplit()){
+            System.out.println("Cannot Split");
+            return;
+        } // Cannot Split
+
+        // Create new Hands
+        Hand hand1 = new Hand();
+        Hand hand2 = new Hand();
+
+        // Split Cards into Both Hands
+        hand1.addCard(hand.get(0)); // First Card -> Hand 1
+        hand2.addCard(hand.get(1)); // Second Card -> Hand 2
+
+        hand1.addCard(deck.takeTopCard());
+        hand2.addCard(deck.takeTopCard());
+
+        // Clear Old Hand
+        hand.clear();
+        System.out.println("Hand 1: " + hand1);
+        System.out.println("Hand 2: " + hand2);
+
+        player.splitHands.add(hand1);
+        player.splitHands.add(hand2);
+    }
+
+    public String showSplitHand(List<Hand> splitHand){
+        StringBuilder newString = new StringBuilder("");
+
+        // Go through each Split Hand
+        for (int i = 0; i < splitHand.size(); i++) {
+            // Get Hand and append Hand x; [ num of suit] , [] ..
+            Hand hand = splitHand.get(i);
+            newString.append("Hand ").append(i + 1).append(": ").append(hand.showHand()).append("\n");
+        }
+        return newString.toString();
+    }
+    // *************** SPLIT HAND^ *****************************************

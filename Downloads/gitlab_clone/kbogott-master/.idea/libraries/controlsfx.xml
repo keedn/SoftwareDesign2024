@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="controlsfx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/textbook_examples_11th_edition/ch36/VideoPlayer/mods/controlsfx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

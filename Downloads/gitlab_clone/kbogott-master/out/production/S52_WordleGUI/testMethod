@@ -1,0 +1,19 @@
+  public void testWord(String userInput){
+        for(int i = 0; i < userInput.length();i++){
+            char letter = userInput.charAt(i); //set current letter equal to first char in input and iterate through the rest
+
+            if(answer.charAt(i) == letter){ // if right (green)
+                System.out.println(userInput.charAt(i) + " Is in the correct spot" );
+            }
+
+            else if(answer.indexOf(userInput.charAt(i)) != -1 ){
+                //The indexOf() method returns the index of the first occurrence of the specified character in the string.
+                // If the character is not found, it returns -1. Apple.indexOf(A) = 0
+                // So, if the result is not -1, it means the character is present in the string.
+                System.out.println(userInput.charAt(i) + " Is in the word but in the wrong spot" );
+            }
+
+            else{ System.out.println( userInput.charAt(i) + " is WRONG" );} // letter not in answer
+
+        }// End for Loop / Char Check Logic
+    }

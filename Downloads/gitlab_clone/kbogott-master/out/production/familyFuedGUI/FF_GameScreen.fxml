@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="514.0" prefWidth="1292.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/1T1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FF_GameScreenController">
+   <children>
+      <VBox fx:id="showChat" prefHeight="400.0" prefWidth="273.0" HBox.hgrow="ALWAYS">
+         <children>
+            <Button fx:id="showChatButton" mnemonicParsing="false" onAction="#handleShowChatButton" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #6475ED; -fx-font-weight: bold; -fx-border-color: #6465ED; -fx-border-width: 3;" text="Show Chat" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </VBox.margin>
+            </Button>
+            <VBox fx:id="chatBox" alignment="BOTTOM_CENTER" style="-fx-background-color: #6495ED;" styleClass="chatBox" stylesheets="@style.css" VBox.vgrow="ALWAYS">
+               <children>
+                  <TextArea fx:id="chatTextArea" editable="false" prefHeight="494.0" prefWidth="260.0" promptText="View Team Chats Here..." style="-fx-border-color: #6475ED; -fx-border-width: 4;" wrapText="true" VBox.vgrow="ALWAYS" />
+                  <HBox prefHeight="0.0" prefWidth="260.0" style="-fx-background-color: #6495ED;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="messageField" prefHeight="0.0" prefWidth="216.0" promptText="Send a Message!" style="-fx-border-color: #6475ED; -fx-border-width: 4;" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" right="5.0" top="5.0" />
+                           </HBox.margin></TextField>
+                        <Button fx:id="sendButton" mnemonicParsing="false" onAction="#handleChatSendButton" prefHeight="39.0" prefWidth="50.0" style="-fx-background-color: #2345ED;" text="↑" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin></VBox>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="677.0" HBox.hgrow="ALWAYS">
+         <center>
+            <VBox fx:id="answerVBox" alignment="CENTER" prefHeight="151.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane fx:id="answerGridBox" alignment="CENTER" gridLinesVisible="true" style="-fx-background-color: #6489ED;" VBox.vgrow="ALWAYS">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label fx:id="answer2" alignment="CENTER" prefHeight="78.0" prefWidth="346.0" text="2" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer1" alignment="CENTER" prefHeight="85.0" prefWidth="334.0" text="1">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer3" alignment="CENTER" prefHeight="111.0" prefWidth="334.0" text="3" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer4" alignment="CENTER" prefHeight="110.0" prefWidth="334.0" text="4" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer5" alignment="CENTER" prefHeight="127.0" prefWidth="334.0" text="5" GridPane.rowIndex="4">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer6" alignment="CENTER" prefHeight="73.0" prefWidth="333.0" text="6" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer7" alignment="CENTER" prefHeight="126.0" prefWidth="333.0" text="7" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer8" alignment="CENTER" prefHeight="142.0" prefWidth="333.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer9" alignment="CENTER" prefHeight="162.0" prefWidth="333.0" text="9" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                        <Label fx:id="answer10" alignment="CENTER" prefHeight="208.0" prefWidth="333.0" text="10" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </GridPane>
+                  <Label fx:id="updateLabel" alignment="CENTER" prefHeight="0.0" prefWidth="667.0" style="-fx-font-weight: bold;" text="Game Starting..." VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+         <top>
+            <HBox alignment="CENTER" prefHeight="76.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="57.0" prefWidth="649.0" style="-fx-background-color: #6485ED;" styleClass="basic-border" stylesheets="@style.css" text="FAMILY FEUD" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="25.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="39.0" prefWidth="677.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea fx:id="enterGuessTextArea" prefHeight="15.0" prefWidth="376.0" promptText="Enter Guess" style="-fx-border-color: #6475CC; -fx-border-width: 5; -fx-border-radius: 2;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="15.0" right="5.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </TextArea>
+                  <Button fx:id="guessButton" alignment="CENTER" disable="true" mnemonicParsing="false" onAction="#handleGuessButton" prefHeight="106.0" prefWidth="128.0" style="-fx-background-color: #2345ED; -fx-border-color: #6475CC; -fx-border-width: 3;" text="↑" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="44.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="15.0" top="15.0" />
+                     </HBox.margin>
+                  </Button>
+               </children></HBox>
+         </bottom>
+      </BorderPane>
+      <VBox prefHeight="514.0" prefWidth="300.0" style="-fx-background-color: #6485ED;" HBox.hgrow="SOMETIMES">
+         <HBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </HBox.margin>
+         <children>
+            <VBox prefHeight="155.0" prefWidth="300.0" style="-fx-background-color: #6475ED;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="39.0" prefWidth="380.0" style="-fx-font-weight: bold;" text="QUESTION:">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="questionLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="105.0" prefWidth="300.0" style="-fx-font-weight: bold;" text="ARE THERE MORE WHEELS OR DOORS IN THE WHOLE WORLD?" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Button fx:id="buzzInButton" mnemonicParsing="false" onAction="#handleBuzzButton" prefHeight="181.0" prefWidth="391.0" style="-fx-background-color: #FF0000; -fx-font-weight: bold;" text="BUZZ IN " textFill="#0a0000">
+               <VBox.margin>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="93.0" prefWidth="300.0" style="-fx-background-color: #6480AA;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" prefHeight="16.0" prefWidth="344.0" style="-fx-font-weight: bold; -fx-background-color: #6470AA;" text="TEAM 1 ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="16.0" prefWidth="290.0">
+                     <children>
+                        <Label fx:id="teamOnePointsLabel" alignment="CENTER" prefHeight="16.0" prefWidth="344.0" style="-fx-font-weight: bold;" text="Points: 0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="16.0" prefWidth="290.0" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label alignment="CENTER" prefHeight="24.0" prefWidth="101.0" style="-fx-font-weight: bold; -fx-border-color: #FF0000; -fx-border-width: 3; -fx-border-radius: 5;" text="X's">
+                           <HBox.margin>
+                              <Insets bottom="8.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="19.0" />
+                           </font></Label>
+                        <Label fx:id="teamOneXLabel" prefHeight="24.0" prefWidth="249.0" style="-fx-font-weight: bold;" text=": " HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="15.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="93.0" prefWidth="300.0" style="-fx-background-color: #6480AA;" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" prefHeight="16.0" prefWidth="344.0" style="-fx-font-weight: bold; -fx-background-color: #6470AA;" text="TEAM 2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="16.0" prefWidth="290.0">
+                     <children>
+                        <Label fx:id="teamTwoPointsLabel" alignment="CENTER" prefHeight="16.0" prefWidth="344.0" style="-fx-font-weight: bold;" text="Points: 0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="16.0" prefWidth="290.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="24.0" prefWidth="101.0" style="-fx-font-weight: bold; -fx-border-color: #FF0000; -fx-border-width: 3; -fx-border-radius: 5;" text="X's">
+                           <HBox.margin>
+                              <Insets bottom="8.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="19.0" />
+                           </font></Label>
+                        <Label fx:id="teamTwoXLabel" prefHeight="24.0" prefWidth="249.0" style="-fx-font-weight: bold;" text=":" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="15.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

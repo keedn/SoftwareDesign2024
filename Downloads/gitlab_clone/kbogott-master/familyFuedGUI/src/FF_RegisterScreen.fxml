@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="TOP_CENTER" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FF_LogIn_RegisterScreenController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <VBox prefHeight="447.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="595.0" style="-fx-background-color: #6485De; -fx-font-weight: bold;" text="Create Username and Password to Register and Play Family Feud" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="38.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="185.0" text="Enter Username" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="registerUsernameTextField" alignment="TOP_CENTER" promptText="username...." HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="19.0" prefWidth="176.0" text="Enter Password: " HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="registerPasswordTextField" alignment="TOP_CENTER" managed="false" promptText="password...." visible="false" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <PasswordField fx:id="registerPasswordField" alignment="TOP_CENTER" promptText="password...." HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="600.0">
+               <children>
+                  <CheckBox fx:id="showRegisterPasswordCheckBox" mnemonicParsing="false" onAction="#handleRegisterShowPassCheckBox" prefHeight="18.0" prefWidth="197.0" text="Show Password">
+                     <HBox.margin>
+                        <Insets bottom="6.0" left="10.0" right="6.0" top="6.0" />
+                     </HBox.margin>
+                  </CheckBox>
+                  <Button fx:id="registerSubmitButton" mnemonicParsing="false" onAction="#handleRegisterSubmitButton" prefHeight="1.0" prefWidth="76.0" style="-fx-background-color: #6475De;" text="Submit">
+                     <HBox.margin>
+                        <Insets left="260.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                     </padding>
+                  </Button>
+               </children>
+            </HBox>
+            <Label fx:id="registerOutcomeMessageLabel" alignment="CENTER" prefHeight="30.0" prefWidth="668.0" text="Account Created Succesfully" textFill="#3c791e" visible="false" />
+            <HBox style="-fx-background-color: #6485De;">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="registerBackButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleRegisterBackButton" prefHeight="41.0" prefWidth="75.0" style="-fx-background-color: #6475De;" text="Back" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>
